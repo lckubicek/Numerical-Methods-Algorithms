@@ -1,16 +1,16 @@
 function I = Simpson(x,y)
 % Created by: London Kubicek
 % This function numerically evaluates the integral of the vector of function
-% values ‘y’ with respect to ‘x’ using Simpson's 1/3 Rule. In the case of
+% values â€˜yâ€™ with respect to â€˜xâ€™ using Simpson's 1/3 Rule. In the case of
 % an odd number of sections (even number of points) the trapezoidal
 % approximation method is used for the last section.
 %
 % Inputs:
-%   • x = row vector of independent variables
-%   • y = row vector of dependent variables evaluated at each independent
+%   â€¢ x = row vector of independent variables
+%   â€¢ y = row vector of dependent variables evaluated at each independent
 %   value
 % Outpus:
-%   • I = approximate integral
+%   â€¢ I = approximate integral
 
 m = length(x);
 n = length(y);
