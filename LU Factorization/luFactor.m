@@ -3,11 +3,11 @@ function [L,U,P] = luFactor(A)
 % lower triangular matrix, upper triangular matrix and pivot matrix for a
 % given matrix
 % Inputs:
-% • A - coefficient matrix
+% â€¢ A - coefficient matrix
 % Outputs:
-% • L - lower triangular matrix
-% • U - upper triangular matrix
-% • P - the pivot matrix
+% â€¢ L - lower triangular matrix
+% â€¢ U - upper triangular matrix
+% â€¢ P - the pivot matrix
 
 [m,n] = size(A);
 if m ~= n                                           % checks if A is a square matrix
