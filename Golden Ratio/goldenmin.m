@@ -1,6 +1,6 @@
 function [x_min,fx,ea,iter] = goldenmin(func,xl,xu,es,maxiter)
 % This function uses the golden section approximation method to approximate
-% the maximum of a function. The function must be entered as:
+% the minimum of a function. The function must be entered as:
 %                   func = @(variable) function of variable
 %   Inputs:
 %       func - the function being evaluated
