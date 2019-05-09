@@ -1,7 +1,6 @@
 # False Position
 
-## This function uses the false position approximation method to approximate the zero of a function. The function must be entered as:
-## func = @(variable) function of variable
+## This function uses the false position approximation method to approximate the zero of a function
 
 ## Inputs:
 ### func - the function being evaluated
